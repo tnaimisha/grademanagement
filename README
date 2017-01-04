@@ -1,0 +1,14 @@
+Pre requisites :
+Android Studio
+
+Steps to execute :
+1. Create a new project in android studio and add all the .xml and .java files
+2. Modify the manifest file of your project referring to the manifest file attached.
+3. Run the MainActivity.java file in emulator.
+4. SQLite database is used which can be viewed in android studio through the following steps here - http://www.c-sharpcorner.com/UploadFile/e14021/know-where-database-is-stored-in-android-studio/
+5. Once you have run the entire application you can view the marks in ‘reg_inform’ table and your login details in ‘reg_info’ table.
+
+Functionality:
+It has three modules – student, staff and admin
+Student can register his details, login , view his personal info and marks.
+Admin maintains the database and staff uploads the marks info of students.
