@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exaple.myfirstapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2"></activity>
+        <activity android:name=".Activity3"></activity>
+        <activity android:name=".Activity4"></activity>
+         <activity android:name=".loginform"></activity>
+          <activity android:name=".databaseoperations"></activity>
+          <activity android:name=".tabledata"></activity>
+          <activity android:name=".RegisterActivity"></activity>
+           <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".Activity5"></activity>
+          <activity android:name=".reg"></activity>
+        <activity android:name=".loginform1"></activity>
+        <activity android:name=".loginform2"></activity>
+        <activity android:name=".LoginActivity1"></activity>
+        <activity android:name=".LoginActivity2"></activity>
+         <activity android:name=".Register"></activity>
+         <activity android:name=".Login"></activity>
+         <activity android:name=".datatable"></activity>
+          <activity android:name=".operations"></activity>
+            <activity android:name=".finaldbs"></activity>
+            <activity android:name=".table"></activity>
+              <activity android:name=".dataoperations"></activity>
+               <activity android:name=".Activity51"></activity>
+                <activity android:name=".reg1"></activity>
+                 <activity android:name=".finaldbs1"></activity>
+                  <activity android:name=".dataoperations1"></activity>
+                   <activity android:name=".table1"></activity>
+        
+    </application>
+
+</manifest>

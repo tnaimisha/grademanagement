@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.exaple.myfirstapp.Register" 
+    >
+
+    <EditText
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:text="@string/user_id" />
+
+    <EditText
+        android:id="@+id/user_clas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_nam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:text="@string/user_clas" />
+
+    
+    <EditText
+        android:id="@+id/user_sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_clas"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:text="@string/user_sec" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/user_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_sec"
+        android:layout_below="@+id/user_sec"
+        android:ems="10"
+        android:text="@string/user_no" />
+
+    <EditText
+        android:id="@+id/user_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_no"
+        android:layout_below="@+id/user_no"
+        android:ems="10"
+        android:text="@string/user_add" />
+
+    <EditText
+        android:id="@+id/user_nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_clas"
+        android:layout_below="@+id/user_id"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:text="@string/user_nam" />
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/clickme" />
+
+</RelativeLayout>
